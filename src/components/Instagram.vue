@@ -2,7 +2,7 @@
     <div>
         <div class="flex flex-col items-center justify-center">
             <h2 class="font-bitter font-semibold text-3xl text-center text-main mb-10">Instagram Bakso Ngangenin</h2>
-            <button class="bg-main text-white mb-5 px-4 py-2 rounded-md mb-10">Follow @bakso_ngangenin</button>
+            <a href="https://www.instagram.com/bakso_ngangenin" class="bg-main text-white mb-5 px-4 py-2 rounded-md mb-10">Follow @bakso_ngangenin</a>
         </div>
         <carousel 
             :items="numberOfItems" 
@@ -11,6 +11,8 @@
             :nav="false" 
             :margin="setMargin"
             :autoWidth="autoWidth"
+            :autoplay="true"
+            :autoplayTimeout="2000"
             class="mb-32"
         >
             <div v-for="n in 20" :key="n" class="w-64 sm:w-full" data-aos="fade-up" data-aos-duration="800">

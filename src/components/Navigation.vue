@@ -6,13 +6,14 @@
             </div>
             <div class="flex items-center">
                 <!-- <h6 class="mr-4">Divisi Pendidikan</h6> -->
-                <img src="@/assets/img/profil.png" class="h-8 w-8 md:h-10 md:w-10">
+                <img src="@/assets/img/profil.png" class="h-8 w-8 md:h-10 md:w-10 cursor-pointer">
             </div>
         </div>
         <router-link :to="{ name: 'home' }" tag="div" class="flex justify-center w-full">
-            <img src="@/assets/img/logo.png" class="absolute top-0 h-24 w-24 sm:h-32 sm:w-32 md:h-40 md:w-40 mt-8 sm:mt-5">
+            <img src="@/assets/img/logo.png" class="absolute top-0 h-24 w-24 sm:h-32 sm:w-32 md:h-40 md:w-40 mt-8 sm:mt-5 cursor-pointer">
         </router-link>
         <ul v-show="toggleNavigation" class="mt-20 md:mt-10 text-base md:text-lg cursor-pointer font-semibold">
+            <router-link :to="{ name: 'home' }" tag="li" class="hover:text-orange-200 uppercase mb-2">Home</router-link>
             <router-link :to="{ name: 'profil' }" tag="li" class="hover:text-orange-200 uppercase mb-2">Profil</router-link>
             <router-link :to="{ name: 'kemitraan' }" tag="li" class="hover:text-orange-200 uppercase mb-2">Kemitraan</router-link>
             <router-link :to="{ name: 'order' }" tag="li" class="hover:text-orange-200 uppercase">Order</router-link>

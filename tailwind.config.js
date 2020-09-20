@@ -17,6 +17,7 @@ module.exports = {
             },
             backgroundImage: theme => ({
                 'bakso': "url('~@/assets/img/landing.png')",
+                'kemitraan': "url('~@/assets/img/bg-kemitraan.png')",
             }),
             colors: {
                 main: '#FF7E23'
