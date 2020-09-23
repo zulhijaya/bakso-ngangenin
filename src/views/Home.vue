@@ -19,12 +19,62 @@
                     :autoplay="true"
                     :autoplayTimeout="2000"
                 >
-                    <div v-for="n in 6" :key="n" class="w-64 sm:w-full bg-white p-2 md:p-4 border border-gray-400 rounded-lg">
+                    <div class="w-64 sm:w-full bg-white p-2 md:p-4 border border-gray-400 rounded-lg">
                         <div class="flex items-center w-12 mb-5">
                             <img src="@/assets/img/logo.png" class="h-12 mr-2">
                             <h6 class="font-semibold text-main whitespace-no-wrap">Bakso Rendang</h6>
                         </div>
                         <img :src="require('@/assets/img/rendang.jpg')" class="rounded-md w-full h-40 md:h-48 lg:h-32 xl:h-40 object-cover mb-8 md:mb-10">
+                        <div class="flex justify-center">
+                            <router-link :to="{ name: 'order' }" tag="button" class="bg-main text-white px-4 py-2 rounded-md">Order Delivery</router-link>
+                        </div>
+                    </div>
+                    <div class="w-64 sm:w-full bg-white p-2 md:p-4 border border-gray-400 rounded-lg">
+                        <div class="flex items-center w-12 mb-5">
+                            <img src="@/assets/img/logo.png" class="h-12 mr-2">
+                            <h6 class="font-semibold text-main whitespace-no-wrap">Bakso Keju</h6>
+                        </div>
+                        <img :src="require('@/assets/img/keju.jpeg')" class="rounded-md w-full h-40 md:h-48 lg:h-32 xl:h-40 object-cover mb-8 md:mb-10">
+                        <div class="flex justify-center">
+                            <router-link :to="{ name: 'order' }" tag="button" class="bg-main text-white px-4 py-2 rounded-md">Order Delivery</router-link>
+                        </div>
+                    </div>
+                    <div class="w-64 sm:w-full bg-white p-2 md:p-4 border border-gray-400 rounded-lg">
+                        <div class="flex items-center w-12 mb-5">
+                            <img src="@/assets/img/logo.png" class="h-12 mr-2">
+                            <h6 class="font-semibold text-main whitespace-no-wrap">Bakso Konro</h6>
+                        </div>
+                        <img :src="require('@/assets/img/konro.jpeg')" class="rounded-md w-full h-40 md:h-48 lg:h-32 xl:h-40 object-cover mb-8 md:mb-10">
+                        <div class="flex justify-center">
+                            <router-link :to="{ name: 'order' }" tag="button" class="bg-main text-white px-4 py-2 rounded-md">Order Delivery</router-link>
+                        </div>
+                    </div>
+                    <div class="w-64 sm:w-full bg-white p-2 md:p-4 border border-gray-400 rounded-lg">
+                        <div class="flex items-center w-12 mb-5">
+                            <img src="@/assets/img/logo.png" class="h-12 mr-2">
+                            <h6 class="font-semibold text-main whitespace-no-wrap">Bakso Rendang</h6>
+                        </div>
+                        <img :src="require('@/assets/img/rendang.jpg')" class="rounded-md w-full h-40 md:h-48 lg:h-32 xl:h-40 object-cover mb-8 md:mb-10">
+                        <div class="flex justify-center">
+                            <router-link :to="{ name: 'order' }" tag="button" class="bg-main text-white px-4 py-2 rounded-md">Order Delivery</router-link>
+                        </div>
+                    </div>
+                    <div class="w-64 sm:w-full bg-white p-2 md:p-4 border border-gray-400 rounded-lg">
+                        <div class="flex items-center w-12 mb-5">
+                            <img src="@/assets/img/logo.png" class="h-12 mr-2">
+                            <h6 class="font-semibold text-main whitespace-no-wrap">Bakso Keju</h6>
+                        </div>
+                        <img :src="require('@/assets/img/keju.jpeg')" class="rounded-md w-full h-40 md:h-48 lg:h-32 xl:h-40 object-cover mb-8 md:mb-10">
+                        <div class="flex justify-center">
+                            <router-link :to="{ name: 'order' }" tag="button" class="bg-main text-white px-4 py-2 rounded-md">Order Delivery</router-link>
+                        </div>
+                    </div>
+                    <div class="w-64 sm:w-full bg-white p-2 md:p-4 border border-gray-400 rounded-lg">
+                        <div class="flex items-center w-12 mb-5">
+                            <img src="@/assets/img/logo.png" class="h-12 mr-2">
+                            <h6 class="font-semibold text-main whitespace-no-wrap">Bakso Konro</h6>
+                        </div>
+                        <img :src="require('@/assets/img/konro.jpeg')" class="rounded-md w-full h-40 md:h-48 lg:h-32 xl:h-40 object-cover mb-8 md:mb-10">
                         <div class="flex justify-center">
                             <router-link :to="{ name: 'order' }" tag="button" class="bg-main text-white px-4 py-2 rounded-md">Order Delivery</router-link>
                         </div>
